@@ -8,22 +8,6 @@
 
 ---
 
-> [!CAUTION]
-> **ФЕЙКИ / FAKES**
-> 
-> * **RU:** Я не веду никаких других страниц, групп, телеграм или ютуб каналов. Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица — это **ФЕЙК**.
-> * **EN:** I do not run any other pages, groups, telegram or youtube channels. If you encounter anything outside of this GitHub page distributed on my behalf, it is **FAKE**.
-
----
-
-> [!WARNING]
-> **ВАЖНОЕ ПРИМЕЧАНИЕ / IMPORTANT NOTE**
-> 
-> * **RU:** Расширение предназначено исключительно для защиты конфиденциальности, управления цифровыми отпечатками и анализа трафика. Убедитесь, что вы используете официальную сборку из этого репозитория.
-> * **EN:** The extension is intended exclusively for privacy protection, digital fingerprint management, and traffic analysis. Make sure you are using the official build from this repository.
-
----
-
 ## 🇷🇺 О ПРОЕКТЕ
 
 **Nothing** — профессиональное расширение для браузера, разработанное для полного контроля над цифровым отпечатком, глубокого анализа сетевого трафика и защиты конфиденциальности в реальном времени.

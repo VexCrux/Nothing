@@ -8,50 +8,58 @@
 
 ---
 
+<div>
+
 > [!WARNING]
 > **ВНИМАНИЕ / WARNING**
 > 
-> * **RU:** Расширение предназначено исключительно для защиты конфиденциальности, управления цифровыми отпечатками и анализа сетевого трафика. Убедитесь, что вы используете официальную сборку из этого репозитория.
-> * **EN:** The extension is intended exclusively for privacy protection, digital fingerprint management, and network traffic analysis. Make sure you are using the official build from this repository.
+> * **RU:** Расширение создано исключительно для защиты конфиденциальности, управления цифровыми отпечатками и анализа сетевого трафика. Используйте только официальные сборки из этого репозитория.
+> * **EN:** The extension is intended exclusively for privacy protection, digital fingerprint management, and network traffic analysis. Make sure to use official builds from this repository.
+
+</div>
 
 ---
 
+<div>
+
 > [!IMPORTANT]
-> **ТОТАЛЬНЫЙ КОНТРОЛЬ И СВОБОДА КАСТОМИЗАЦИИ / TOTAL CONTROL & CUSTOMIZATION**
+> **ПОЛНЫЙ КОНТРОЛЬ И НАСТРОЙКА / FULL CONTROL & CUSTOMIZATION**
 > 
-> * **RU:** Архитектура расширения спроектирована по принципу абсолютной модульности: вы можете в один клик деактивировать всю систему, настроить индивидуальные исключения для конкретных веб-ресурсов, а также гибко управлять каждым слоем маскировки (от операционных систем вроде Windows, macOS и Linux до таймзон и WebRTC-исключений).
-> * **EN:** The extension architecture is designed for absolute modularity: you can deactivate the entire system with a single click, configure individual exceptions for specific web resources, and granularly manage every masking layer (from operating systems like Windows, macOS, and Linux to timezones and WebRTC exceptions).
+> * **RU:** Вы сами решаете, как именно работает защита: расширение можно полностью отключить в один клик, настроить списки исключений для нужных сайтов или точечно управлять подменой системы вроде Windows, macOS и Linux, а также таймзонами и WebRTC.
+> * **EN:** You decide how the protection works: the extension can be completely disabled with a single click, exceptions can be set for specific websites, and system spoofing like Windows, macOS, Linux, timezones, and WebRTC can be managed individually.
+
+</div>
 
 ---
 
 ## 🇷🇺 О ПРОЕКТЕ
 
-**Nothing** — бескомпромиссный инструмент нового поколения для глубокой защиты конфиденциальности, управления аппаратными цифровыми отпечатками (fingerprints) и мониторинга сетевых запросов в реальном времени.
+**Nothing** — удобное и надежное расширение для браузера, которое дает полный контроль над цифровым отпечатком, позволяет безопасно управлять сетевыми запросами и защищает вашу конфиденциальность в реальном времени.
 
-### ⚡ Ключевые возможности
+### ⚡ Возможности
 
-* **Глобальный мастер-переключатель:** Мгновенная активация или полная деактивация расширения для текущей рабочей сессии.
-* **Индивидуальный белый список сайтов:** Возможность точечно отключать работу расширения для выбранных страниц или доменов, исключая любые конфликты интерфейсов.
-* **Интеллектуальный мониторинг трафика:** Глубокий анализ активных доменов, общего числа запросов, потерь пакетов, объема переданных данных и счетчика заблокированных трекеров.
-* **Продвинутая системная идентификация:** Эмуляция параметров окружения с возможностью переключения профилей операционных систем (Windows, Linux, macOS) и связок с браузерами.
-* **Многоуровневая защита от фингерпринтинга:** Изолированные тумблеры для настройки динамического шума Canvas и Audio, адаптивной агрессии, подмены WebGL в реальном времени и блокировки гео/антифрод-трекеров.
-* **Защищенный WebRTC:** Предотвращение аппаратных IP-утечек с возможностью добавления доверенных сайтов в персональные исключения («Разрешить на сайте»).
-* **Управление часовыми поясами:** Тонкая подмена таймзоны под заданную геолокацию с опцией полного отключения синхронизации.
-* **Интерфейсная телеметрия и оптимизация:** Легковесный асинхронный код без просадки производительности браузера, спроектированный с акцентом на приватность.
+* **Главный выключатель:** Позволяет быстро включить или полностью выключить работу расширения в один клик.
+* **Исключения для сайтов:** Возможность отключить расширение для конкретной страницы или домена, чтобы избежать сбоев на нужных ресурсах.
+* **Мониторинг трафика:** Подробная статистика по активным доменам, запросам, потерям пакетов, объему данных и заблокированным трекерам прямо во вкладке.
+* **Подмена системы:** Выбор профилей операционных систем (Windows, Linux, macOS) и связок с браузерами для маскировки вашего устройства.
+* **Защита от фингерпринтинга:** Настройка шума для Canvas и Audio, адаптивная агрессия, подмена WebGL и блокировка антифрод-трекеров с раздельными тумблерами для каждого параметра.
+* **Управление WebRTC:** Надежная защита от IP-утечек с возможностью добавлять сайты в список исключений, где блокировка применяться не будет.
+* **Часовой пояс:** Подмена таймзоны под нужную локацию с возможностью полностью отключить эту функцию.
+* **Оптимизация:** Легкая архитектура без лишней нагрузки на браузер, созданная с упором на стабильность и скорость работы.
 
 ---
 
 ## 🇬🇧 ABOUT
 
-**Nothing** is an uncompromising next-generation tool designed for advanced privacy protection, hardware digital fingerprint management, and real-time network traffic analysis.
+**Nothing** is a reliable browser extension that gives you complete control over your digital fingerprint, securely manages network requests, and protects your privacy in real time.
 
-### ⚡ Core Features & Architecture
+### ⚡ Core Features
 
-* **Global Master Toggle:** Instant activation or complete deactivation of the extension for your current working session.
-* **Granular Site Whitelisting:** Ability to selectively disable the extension for specific pages or domains to prevent any interface conflicts.
-* **Intelligent Traffic Monitoring:** Deep inspection of active domains, total requests, packet loss, transferred data volume, and blocked tracker counters.
-* **Advanced System Identification:** Environment spoofing capabilities allowing you to seamlessly switch operating system profiles (Windows, Linux, macOS) and browser bindings.
-* **Multi-Layer Fingerprint Defense:** Independent switches for configuring dynamic Canvas and Audio noise, adaptive aggression, real-time WebGL spoofing, and geo/anti-fraud tracker blocking.
-* **Secured WebRTC:** Hardware IP leak prevention featuring customizable trusted site exceptions ("Allow on site").
-* **Timezone Management:** Precise timezone spoofing matching target locations, complete with an option to disable synchronization entirely.
-* **Performance-First Engineering:** Lightweight asynchronous codebase engineered without browser performance overhead, strictly prioritizing user confidentiality.
+* **Master Switch:** Instantly enable or completely disable the extension with a single click.
+* **Site Exclusions:** Easily turn off the extension for specific pages or domains to prevent any website compatibility issues.
+* **Traffic Monitoring:** Detailed real-time statistics on active domains, requests, packet loss, data volume, and blocked trackers right in your tab.
+* **System Spoofing:** Choose operating system profiles (Windows, Linux, macOS) and browser bindings to mask your actual device.
+* **Fingerprint Protection:** Configure Canvas and Audio noise, adaptive aggression, WebGL spoofing, and anti-fraud tracker blocking with independent switches for each layer.
+* **WebRTC Management:** Reliable prevention of IP leaks with customizable allowlists where restrictions are automatically bypassed.
+* **Timezone Control:** Spoof your timezone to match a target location with an option to turn this feature off entirely.
+* **Performance:** Lightweight architecture designed without browser overhead, focusing on stability and speed.

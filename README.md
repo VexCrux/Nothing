@@ -41,17 +41,25 @@
 
 ---
 
-## 🇬🇧 ABOUT
+## 📦 УСТАНОВКА / INSTALLATION
 
-**Nothing** is a reliable browser extension that gives you complete control over your digital fingerprint, securely manages network requests, and protects your privacy in real time.
+### 🇷🇺 Инструкция по установке
 
-### ⚡ Core Features
+1. **Скачайте проект:** Перейдите на страницу репозитория, нажмите зеленую кнопку **Code** и выберите **Download ZIP**.
+2. **Распакуйте архив:** Распакуйте скачанный ZIP-архив в любую удобную папку на вашем компьютере.
+3. **Откройте страницу расширений:** Запустите браузер (Google Chrome, Microsoft Edge, Brave или другой на базе Chromium), введите в адресную строку `chrome://extensions/` и нажмите Enter.
+4. **Включите режим разработчика:** В правом верхнем углу страницы расширений переключите тумблер **«Режим разработчика» (Developer mode)** в активное положение.
+5. **Загрузите проект:** Нажмите кнопку **«Загрузить распакованное расширение» (Load unpacked)** в левом верхнем углу и выберите папку с распакованным проектом.
+6. **Готово:** Расширение появится в списке, закрепите его на панели браузера для удобного доступа.
 
-* **Master Switch:** Instantly enable or completely disable the extension with a single click.
-* **Site Exclusions:** Easily turn off the extension for specific pages or domains to prevent any website compatibility issues.
-* **Traffic Monitoring:** Detailed real-time statistics on active domains, requests, packet loss, data volume, and blocked trackers right in your tab.
-* **System Spoofing:** Choose operating system profiles (Windows, Linux, macOS) and browser bindings to mask your actual device.
-* **Fingerprint Protection:** Configure Canvas and Audio noise, adaptive aggression, WebGL spoofing, and anti-fraud tracker blocking with independent switches for each layer.
-* **WebRTC Management:** Reliable prevention of IP leaks with customizable allowlists where restrictions are automatically bypassed.
-* **Timezone Control:** Spoof your timezone to match a target location with an option to turn this feature off entirely.
-* **Performance:** Lightweight architecture designed without browser overhead, focusing on stability and speed.
+#### Структура файлов проекта
+```text
+📁 nothing/
+├── 📁 assets/          # стили и ресурсы интерфейса
+├── 📁 icons/           # иконки расширения
+├── 📄 background.js    # основной фоновый скрипт
+├── 📄 content-loader.js# загрузчик контент-скриптов
+├── 📄 inject.js        # инжектируемый скрипт
+├── 📄 manifest.json    # файл манифеста расширения
+├── 📄 popup.html       # интерфейс всплывающего окна
+└── 📄 popup.js         # логика всплывающего окна

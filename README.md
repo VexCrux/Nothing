@@ -16,19 +16,27 @@
 
 ---
 
+> [!IMPORTANT]
+> **ГИБКОЕ УПРАВЛЕНИЕ И ОТКЛЮЧЕНИЕ ФУНКЦИЙ / FLEXIBLE CONTROL & TOGGLES**
+> 
+> * **RU:** Вы можете полностью контролировать каждый параметр: отключать расширение глобально, деактивировать его работу для конкретных доменов, а также точечно управлять подменой системы (Windows, macOS, Linux), WebRTC-исключениями и таймзонами.
+> * **EN:** You have full control over every parameter: disable the extension globally, turn it off for specific domains, and granularly manage system spoofing (Windows, macOS, Linux), WebRTC exceptions, and timezones.
+
+---
+
 ## 🇷🇺 О ПРОЕКТЕ
 
 **Nothing** — профессиональное расширение для браузера, разработанное для полного контроля над цифровым отпечатком, глубокого анализа сетевого трафика и защиты конфиденциальности в реальном времени.
 
 ### ⚡ Функционал и возможности
 
-* **Полное включение/отключение:** Главный тумблер позволяет мгновенно деактивировать или активировать работу расширения для текущей сессии.
-* **Исключения для сайтов:** Возможность полностью отключить работу расширения для конкретной страницы (например, для текущего домена), чтобы не нарушать работу сайтов.
+* **Глобальный тумблер:** Мгновенное включение или выключение работы расширения в один клик.
+* **Исключения для страниц:** Полное отключение расширения для конкретного сайта или домена, чтобы избежать конфликтов со страницами.
 * **Мониторинг трафика вкладки:** Отслеживание активных доменов, общего количества запросов, сетевых потерь, объема трафика и счетчика заблокированных трекеров в реальном времени.
-* **Идентификация браузера:** Подмена системных профилей (например, переключение между Windows, Linux, macOS и выбором браузера вроде Chrome) и переключение аппаратных параметров.
-* **Fingerprint-защита:** Интегрированная шумогенерация для Canvas и Audio, адаптивная агрессия шума, динамическая подмена WebGL в реальном времени и блокировка антифрод/geo-трекеров с возможностью гибкого отключения каждой функции отдельно.
-* **WebRTC:** Надежное предотвращение IP-утечек через WebRTC с возможностью добавлять сайты в список исключений («Разрешить на сайте»), где утечка или блокировка не будут применяться.
-* **Часовой пояс:** Инструменты подмены таймзоны с ручным выбором локации и тумблером полного отключения подмены часового пояса.
+* **Идентификация браузера:** Подмена системных профилей (выбор между Windows, Linux, macOS и браузерами) с возможностью включения и отключения аппаратных параметров.
+* **Fingerprint-защита:** Интегрированная шумогенерация для Canvas и Audio, адаптивная агрессия шума, динамическая подмена WebGL в реальном времени и блокировка антифрод/geo-трекеров с независимыми переключателями.
+* **WebRTC:** Надежное предотвращение IP-утечек с возможностью гибко настраивать белые списки («Разрешить на сайте»), добавляя страницы, где утечка блокироваться не будет.
+* **Часовой пояс:** Инструменты подмены таймзоны с ручным выбором локации (например, Europe/London) и возможностью полного отключения подмеров часового пояса.
 
 ---
 
@@ -38,10 +46,10 @@
 
 ### ⚡ Core Features & Functions
 
-* **Master Toggle:** Main switch to instantly enable or disable the extension globally.
-* **Site Exclusions:** Ability to completely disable the extension for a specific page or active domain to ensure seamless website compatibility.
+* **Master Toggle:** Instant global switch to enable or disable the extension.
+* **Page Exclusions:** Ability to completely disable the extension for a specific site or domain to ensure smooth web navigation.
 * **Tab Traffic Monitoring:** Real-time tracking of active domains, total requests, packet loss, traffic volume, and blocked trackers.
-* **Browser Identification:** System profile spoofing (such as switching between Windows, Linux, macOS, and Chrome) alongside hardware parameter toggles.
-* **Fingerprint Protection:** Integrated Canvas and Audio noise injection, adaptive noise aggression, real-time WebGL spoofing, and anti-fraud/geo-tracker blocking with individual toggles for each layer.
-* **WebRTC:** Reliable prevention of WebRTC IP leaks with a customizable allowlist ("Allow on site") where restrictions are bypassed.
-* **Timezone Management:** Manual timezone configuration spoofing with a dedicated switch to disable timezone replacement entirely.
+* **Browser Identification:** System profile spoofing (switching between Windows, Linux, macOS, and browsers) alongside hardware parameter toggles.
+* **Fingerprint Protection:** Integrated Canvas and Audio noise injection, adaptive noise aggression, real-time WebGL spoofing, and anti-fraud/geo-tracker blocking with independent switches.
+* **WebRTC:** Reliable prevention of WebRTC IP leaks with customizable allowlists ("Allow on site") to bypass restrictions where needed.
+* **Timezone Management:** Manual timezone configuration spoofing with custom location selection and a dedicated switch to disable timezone replacement entirely.

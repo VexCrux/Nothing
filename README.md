@@ -1,34 +1,31 @@
 <div align="center">
 
 # Nothing
-<p><b>Advanced Browser Privacy & Fingerprint Protection</b></p>
 
 </div>
 
----
+## RU
 
-## 🇷🇺 Русскоязычная версия
+Nothing — это расширение для браузера, созданное для управления цифровым отпечатком и обеспечения конфиденциальности. Инструмент предоставляет детальный мониторинг трафика вкладки, настраиваемые профили идентификации, защиту от фингерпринтинга, блокировку утечек WebRTC и управление часовыми поясами.
 
-**Nothing** — современное расширение для полного контроля над цифровым отпечатком и обеспечения конфиденциальности. Инструмент позволяет эффективно маскировать аппаратные параметры, блокировать трекеры и управлять сетевыми соединениями в реальном времени.
+### Функционал
 
-### Возможности
-
-* **Мониторинг трафика:** Контроль активных доменов, запросов, сетевых потерь и заблокированных трекеров.
-* **Идентификация браузера:** Тонкая настройка профилей User-Agent, WebGL и аппаратных характеристик.
-* **Защита от фингерпринтинга:** Шумогенерация для Canvas и Audio, адаптивная агрессия шума, динамическая подмена WebGL и блокировка антифрод-систем.
-* **WebRTC:** Надежная защита от IP-утечек с поддержкой пользовательских списков исключений для сайтов.
-* **Часовой пояс:** Синхронизация таймзоны под актуальную сетевую конфигурацию.
+* **Трафик вкладки:** Мониторинг доменов, запросов, сетевых потерь, трафика и заблокированных трекеров в реальном времени с возможностью отключения для конкретных сайтов.
+* **Идентификация браузера:** Выбор профилей (UA / WebGL) и переключение аппаратных параметров.
+* **Fingerprint-защита:** Настройка Canvas / Audio шума, адаптивной агрессии шума, подмены WebGL в реальном времени и блокировки антифрод/geo-трекеров.
+* **WebRTC:** Блокировка WebRTC IP-leak с поддержкой исключений для выбранных сайтов.
+* **Часовой пояс:** Подмена часового пояса с ручным выбором значения.
 
 ---
 
-## 🇬🇧 English version
+## EN
 
-**Nothing** is a modern browser extension designed for complete digital fingerprint management and privacy control. The tool allows you to seamlessly spoof hardware parameters, block trackers, and manage network connections in real time.
+Nothing is a browser extension designed for digital fingerprint management and privacy control. The tool provides detailed tab traffic monitoring, customizable identification profiles, fingerprint protection, WebRTC leak blocking, and timezone management.
 
 ### Features
 
-* **Traffic Monitoring:** Real-time tracking of active domains, requests, packet loss, and blocked trackers.
-* **Browser Identification:** Fine-tuning User-Agent, WebGL profiles, and hardware parameters.
-* **Fingerprint Protection:** Canvas and Audio noise injection, adaptive noise aggression, dynamic WebGL spoofing, and anti-fraud blocking.
-* **WebRTC:** Reliable IP leak prevention with custom site exclusion lists.
-* **Timezone Spoofing:** Timezone configuration masking to match your network routing.
+* **Tab Traffic:** Real-time monitoring of domains, requests, packet loss, traffic volume, and blocked trackers with options to disable per site.
+* **Browser Identification:** Selection of User-Agent and WebGL profiles alongside hardware parameter toggles.
+* **Fingerprint Protection:** Canvas and Audio noise configuration, adaptive noise aggression, real-time WebGL spoofing, and anti-fraud/geo-tracker blocking.
+* **WebRTC:** WebRTC IP-leak blocking with custom site exclusion lists.
+* **Timezone Spoofing:** Manual timezone configuration and spoofing management.

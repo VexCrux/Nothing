@@ -12,12 +12,12 @@
   <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
   <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
   <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-  <img src="https://img.shields.io/badge/Version-0.0.3%20in%20the%20works-3d53d7?style=plastic" alt="Version">
+  <img src="https://img.shields.io/badge/Version-0.0.8-3d53d7?style=plastic" alt="Version">
 </p>
 
 <!-- Description -->
 <p align="center"><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
-<p align="center"><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
+<p align="center"><i>Продвинутая защита конфиденциальности и управление цифровым отпечатком браузера</i></p>
 
 <!-- Quick Stats - Rounded -->
 <p align="center">
@@ -47,29 +47,18 @@
 
 ---
 
-## 🔒 Full Control & Customization / Полный контроль
-
-> [!IMPORTANT]
-> **EN:** You decide how protection works: **one-click toggle** to disable, **per-site exceptions** for trusted domains, and **granular spoofing** of OS, timezone, and WebRTC.
->
-> **RU:** Вы сами решаете, как работает защита: **полное отключение в один клик**, **исключения для сайтов** и **точечная подмена** ОС, таймзоны и WebRTC.
-
----
-
 ## ✨ Features / Возможности
 
-| # | 🏷️ Feature (EN) | 🏷️ Возможность (RU) | 📋 Description |
-|---|------------------|----------------------|---------------|
-| 1 | **Master Toggle** | **Главный выключатель** | Instantly enable/disable the entire extension. / Мгновенное включение или отключение расширения. |
-| 2 | **Site Exceptions** | **Исключения для сайтов** | Disable for specific pages or domains. / Отключение для конкретных страниц или доменов. |
-| 3 | **Traffic Monitor** | **Мониторинг трафика** | Real-time stats: domains, requests, packet loss, data volume, blocked trackers. / Статистика по доменам, запросам, потерям пакетов, объёму данных и трекерам. |
-| 4 | **System Spoofing** | **Подмена системы** | OS profiles (Windows, Linux, macOS) + browser signatures. / Профили ОС и связки с браузерами для маскировки устройства. |
-| 5 | **Screen Resolution Spoofing** | **Подмена разрешения экрана** | Mask your real screen resolution and viewport dimensions. / Маскировка реального разрешения экрана и размеров viewport. |
-| 6 | **Fingerprint Protection** | **Защита от фингерпринтинга** | Canvas & Audio noise, adaptive aggression, WebGL spoofing, anti-fraud blockers. / Шум Canvas/Audio, адаптивная агрессия, подмена WebGL, блокировка трекеров. |
-| 7 | **WebRTC Control** | **Управление WebRTC** | IP-leak prevention with per-site whitelist. / Защита от утечки IP с белым списком доменов. |
-| 8 | **Timezone Spoofing** | **Подмена часового пояса** | Spoof timezone to any location, or disable entirely. / Подмена таймзоны под любую локацию или полное отключение. |
-| 9 | **Auto Timezone Sync** | **Автонастройка по реальному IP** | Automatically detect timezone from your current IP to eliminate mismatch. / Автоматическое определение таймзоны по текущему IP для устранения рассинхрона. |
-| 10 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
+| # | 🏷️ Feature (EN) | 🏷️ Возможность (RU) | 📋 Description / Описание |
+|---|------------------|----------------------|---------------------------|
+| 1 | **Traffic Monitor** | **Трафик вкладки** | Real-time stats: domains, requests, packet loss, data volume, blocked trackers. / Статистика по доменам, запросам, потерям, объёму трафика и заблокированным трекерам. |
+| 2 | **Master Toggle & Compatibility** | **Включено / Совместимость** | Instantly toggle the extension. Extension settings do not apply to browser service pages. / Общий выключатель. Настройки не действуют на служебных страницах браузера. |
+| 3 | **System Spoofing** | **Подмена системы** | Spoofs User-Agent, platform, and WebGL renderer simultaneously. / Подменяет User-Agent, платформу и WebGL-рендерер одновременно. |
+| 4 | **Hardware Parameters** | **Аппаратные параметры** | Spoofs hardware-level browser metrics. / Маскировка аппаратных данных устройства, передаваемых браузером. |
+| 5 | **Screen Resolution** | **Разрешение экрана** | Changes only screen.width/height for fingerprinting without breaking site layout. / Меняет только screen.width/height (для фингерпринта) — не трогает размер окна, поэтому вёрстка сайта не ломается. |
+| 6 | **Fingerprint Protection** | **Fingerprint-защита** | Canvas/Audio noise, Adaptive noise aggression, Real-time WebGL spoofing, Anti-fraud/geo-tracker blocking. / Canvas/Audio шум, Адаптивная агрессия шума, Подмена WebGL (в реальном времени), Блокировка антифрод/geo-трекеров. |
+| 7 | **WebRTC Control** | **Управление WebRTC** | IP-leak prevention with a per-site whitelist. / Блокировка WebRTC IP-leak с возможностью добавить сайт в белый список. |
+| 8 | **Timezone Spoofing** | **Подмена часового пояса** | Spoof timezone to any location, or auto-sync with your real IP. / Подмена таймзоны под любую локацию или автонастройка по IP. |
 
 ---
 
@@ -88,78 +77,24 @@
 
 ---
 
-## 🌍 Timezone Showcase
+## 🌍 Timezone Showcase / Часовые пояса
 
 <div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🌍_Europe-40%2B%20cities-3d53d7?style=plastic&logoColor=white" alt="Europe">
-  <img src="https://img.shields.io/badge/🌍_Africa-30%2B%20cities-4ecdc4?style=plastic&logoColor=white" alt="Africa">
-  <img src="https://img.shields.io/badge/🌍_Asia-50%2B%20cities-ff6b6b?style=plastic&logoColor=white" alt="Asia">
-  <img src="https://img.shields.io/badge/🌍_Americas-45%2B%20cities-2ea44f?style=plastic&logoColor=white" alt="Americas">
-  <img src="https://img.shields.io/badge/🌍_Oceania-15%2B%20cities-ffd700?style=plastic&logoColor=white" alt="Oceania">
-</p>
+| 🌍 Region / Регион | 🌆 City / Город | 📝 Location Details / Описание локации |
+| :--- | :--- | :--- |
+| 🇺🇸 **Americas** | `America/New_York` | East Coast USA Time / Время восточного побережья США |
+| 🇬🇧 **Europe** | `Europe/London` | Greenwich Mean Time (GMT) / Среднее время по Гринвичу |
+| 🇷🇺 **Europe** | `Europe/Moscow` | Moscow Standard Time (MSK) / Московское стандартное время |
+| 🇯🇵 **Asia** | `Asia/Tokyo` | Japan Standard Time (JST) / Стандартное время Японии |
+| 🇦🇪 **Asia** | `Asia/Dubai` | Gulf Standard Time (GST) / Стандартное время Персидского залива |
+| 🌐 **Global** | **+ 50 More...** | **And many more... / И многие другие...** |
 
-| 🌆 City | 🌍 Region |
-|---------|-----------|
-| Europe/London | 🇬🇧 United Kingdom |
-| Europe/Paris | 🇫🇷 France |
-| Europe/Berlin | 🇩🇪 Germany |
-| Europe/Rome | 🇮🇹 Italy |
-| Europe/Moscow | 🇷🇺 Russia |
-| Europe/Istanbul | 🇹🇷 Türkiye |
-| Africa/Cairo | 🇪🇬 Egypt |
-| Africa/Lagos | 🇳🇬 Nigeria |
-| Asia/Tokyo | 🇯🇵 Japan |
-| Asia/Shanghai | 🇨🇳 China |
-| Asia/Dubai | 🇦🇪 UAE |
-| Asia/Mumbai | 🇮🇳 India |
-| America/New_York | 🇺🇸 USA (East) |
-| America/Los_Angeles | 🇺🇸 USA (West) |
-| America/Sao_Paulo | 🇧🇷 Brazil |
-| Australia/Sydney | 🇦🇺 Australia |
-| Pacific/Auckland | 🇳🇿 New Zealand |
-| Asia/Seoul | 🇰🇷 South Korea |
-| Asia/Singapore | 🇸🇬 Singapore |
-| Europe/Madrid | 🇪🇸 Spain |
-| Europe/Amsterdam | 🇳🇱 Netherlands |
-| Europe/Zurich | 🇨🇭 Switzerland |
-| Europe/Stockholm | 🇸🇪 Sweden |
-| Europe/Oslo | 🇳🇴 Norway |
-| Europe/Warsaw | 🇵🇱 Poland |
-| Europe/Prague | 🇨🇿 Czech Republic |
-| Europe/Vienna | 🇦🇹 Austria |
-| Europe/Budapest | 🇭🇺 Hungary |
-| Europe/Athens | 🇬🇷 Greece |
-| Europe/Lisbon | 🇵🇹 Portugal |
-| Europe/Dublin | 🇮🇪 Ireland |
-| Europe/Helsinki | 🇫🇮 Finland |
-| Europe/Copenhagen | 🇩🇰 Denmark |
-| Asia/Bangkok | 🇹🇭 Thailand |
-| Asia/Jakarta | 🇮🇩 Indonesia |
-| Asia/Manila | 🇵🇭 Philippines |
-| Asia/Ho_Chi_Minh | 🇻🇳 Vietnam |
-| America/Toronto | 🇨🇦 Canada |
-| America/Chicago | 🇺🇸 USA (Central) |
-| America/Denver | 🇺🇸 USA (Mountain) |
-| America/Mexico_City | 🇲🇽 Mexico |
-| America/Bogota | 🇨🇴 Colombia |
-| America/Lima | 🇵🇪 Peru |
-| America/Santiago | 🇨🇱 Chile |
-| America/Buenos_Aires | 🇦🇷 Argentina |
-| Africa/Johannesburg | 🇿🇦 South Africa |
-| Africa/Nairobi | 🇰🇪 Kenya |
-| Africa/Casablanca | 🇲🇦 Morocco |
-| Africa/Addis_Ababa | 🇪🇹 Ethiopia |
-| Pacific/Honolulu | 🇺🇸 USA (Hawaii) |
-| Pacific/Fiji | 🇫🇯 Fiji |
-| Atlantic/Reykjavik | 🇮🇸 Iceland |
-| Asia/Tehran | 🇮🇷 Iran |
-| Asia/Riyadh | 🇸🇦 Saudi Arabia |
-| Asia/Karachi | 🇵🇰 Pakistan |
-| Asia/Dhaka | 🇧🇩 Bangladesh |
+<br>
 
 > 🔄 **Auto-detect from IP** — Automatically sync your timezone with your real IP location to avoid detection.
+> 
+> 🔄 **Автонастройка по реальному IP** — Автоматически определит часовой пояс вашего текущего IP и выставит его. Так рассинхрон станет невозможен в принципе.
 
 </div>
 
@@ -185,12 +120,10 @@
 
 | 🔒 Feature / Функция | 🎯 Why It Matters / Зачем это нужно |
 |----------------------|--------------------------------------|
-| Canvas & Audio Noise | Adds subtle randomization to prevent fingerprinting without breaking sites. / Добавляет рандомизацию для защиты от фингерпринтинга без поломки сайтов. |
-| WebRTC Blocking | Essential for VPN users — stops real IP leaks during P2P connections. / Критично для VPN-пользователей — блокирует утечку IP в P2P-соединениях. |
-| Adaptive Aggression | Scales protection based on how aggressively a site tries to fingerprint you. / Масштабирует защиту в зависимости от агрессивности сайта. |
-| Per-Site Settings | Granular control without global breakage. / Точечный контроль без глобальных поломок. |
-| Screen Resolution Spoofing | Prevents tracking via screen size and viewport dimensions. / Предотвращает отслеживание через размер экрана и viewport. |
-| Auto Timezone Sync | Eliminates timezone/IP mismatch that can expose your real location. / Устраняет рассинхрон таймзоны/IP, который может выдать реальное местоположение. |
+| **Canvas & Audio Noise** | Adds subtle randomization to prevent fingerprinting without breaking sites. / Добавляет рандомизацию для защиты от фингерпринтинга без поломки сайтов. |
+| **WebRTC IP-Leak Block** | Essential for VPN users — stops real IP leaks during P2P connections. / Критично для VPN-пользователей — блокирует утечку IP в P2P-соединениях. |
+| **Adaptive Aggression** | Scales protection based on how aggressively a site tries to fingerprint you. / Масштабирует агрессивность шума в зависимости от трекеров на сайте. |
+| **Auto Timezone Sync** | Eliminates timezone/IP mismatch. A mismatch exposes you stronger than having no spoofing at all. / Подмена должна совпадать с реальным IP (или VPN), иначе рассинхрон выдаст вас сильнее, чем отсутствие подмены. |
 
 ---
 

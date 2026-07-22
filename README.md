@@ -1,4 +1,4 @@
-  <!-- Animated Wave Header - Blue/Purple Gradient -->
+<!-- Animated Wave Header - Blue/Purple Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=18&descAlignY=55&descColor=a1b9f6" alt="Header">
 
   <!-- Language Switcher - Rounded -->
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.1-3d53d7?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.3-3d53d7?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
@@ -65,10 +65,12 @@
 | 2 | **Site Exceptions** | **Исключения для сайтов** | Disable for specific pages or domains. / Отключение для конкретных страниц или доменов. |
 | 3 | **Traffic Monitor** | **Мониторинг трафика** | Real-time stats: domains, requests, packet loss, data volume, blocked trackers. / Статистика по доменам, запросам, потерям пакетов, объёму данных и трекерам. |
 | 4 | **System Spoofing** | **Подмена системы** | OS profiles (Windows, Linux, macOS) + browser signatures. / Профили ОС и связки с браузерами для маскировки устройства. |
-| 5 | **Fingerprint Protection** | **Защита от фингерпринтинга** | Canvas & Audio noise, adaptive aggression, WebGL spoofing, anti-fraud blockers. / Шум Canvas/Audio, адаптивная агрессия, подмена WebGL, блокировка трекеров. |
-| 6 | **WebRTC Control** | **Управление WebRTC** | IP-leak prevention with per-site whitelist. / Защита от утечки IP с белым списком доменов. |
-| 7 | **Timezone Spoofing** | **Подмена часового пояса** | Spoof timezone to any location, or disable entirely. / Подмена таймзоны под любую локацию или полное отключение. |
-| 8 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
+| 5 | **Screen Resolution Spoofing** | **Подмена разрешения экрана** | Mask your real screen resolution and viewport dimensions. / Маскировка реального разрешения экрана и размеров viewport. |
+| 6 | **Fingerprint Protection** | **Защита от фингерпринтинга** | Canvas & Audio noise, adaptive aggression, WebGL spoofing, anti-fraud blockers. / Шум Canvas/Audio, адаптивная агрессия, подмена WebGL, блокировка трекеров. |
+| 7 | **WebRTC Control** | **Управление WebRTC** | IP-leak prevention with per-site whitelist. / Защита от утечки IP с белым списком доменов. |
+| 8 | **Timezone Spoofing** | **Подмена часового пояса** | Spoof timezone to any location, or disable entirely. / Подмена таймзоны под любую локацию или полное отключение. |
+| 9 | **Auto Timezone Sync** | **Автонастройка по реальному IP** | Automatically detect timezone from your current IP to eliminate mismatch. / Автоматическое определение таймзоны по текущему IP для устранения рассинхрона. |
+| 10 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
 
 ---
 
@@ -128,6 +130,7 @@
 |---------------------|-------------------|---------------------------|
 | **Browser Identity** / **Идентификация браузера** | Profile (UA / WebGL) / Профиль (UA / WebGL) | Select spoofed profile: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. / Выбор профиля: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. |
 | | Hardware Parameters / Аппаратные параметры | Toggle hardware feature spoofing. / Включение/отключение подмены характеристик устройства. |
+| **Screen** / **Экран** | Resolution Spoofing / Подмена разрешения | Mask screen resolution and viewport. / Маскировка разрешения экрана и viewport. |
 | **Fingerprint Protection** / **Fingerprint-защита** | Canvas / Audio Noise / Шум Canvas / Audio | Inject random noise into Canvas and Audio contexts. / Добавление шума к Canvas и Audio контекстам. |
 | | Adaptive Noise Aggression / Адаптивная агрессия шума | Auto-adjust noise intensity per site. / Автоматическая регулировка интенсивности шума. |
 | | Real-time WebGL Spoofing / Подмена WebGL (в реальном времени) | Mask WebGL parameters to prevent GPU tracking. / Маскировка параметров WebGL для защиты от идентификации по GPU. |
@@ -135,7 +138,8 @@
 | **WebRTC** | Block WebRTC IP Leak / Блокировка WebRTC IP-leak | Prevent real IP exposure via WebRTC. / Защита от утечки реального IP через WebRTC. |
 | | Allow on Site / Разрешить на сайте | Whitelist specific domains (e.g., `meet.google.com`). / Белый список доменов (например, `meet.google.com`). |
 | **Timezone** / **Часовой пояс** | Enable Timezone Spoofing / Подмена часового пояса | Activate timezone masking. / Активация подмены таймзоны. |
-| | Value / Значение | Choose timezone: `Europe/London`, `America/New_York`, `Asia/Tokyo`. / Выбор таймзоны: `Europe/London`, `America/New_York`, `Asia/Tokyo`. |
+| | Value / Значение | Choose timezone: `Europe/London`, `America/New_York`, `Asia/Tokyo`, `Africa/Accra`. / Выбор таймзоны: `Europe/London`, `America/New_York`, `Asia/Tokyo`, `Africa/Accra`. |
+| | Auto Sync by IP / Автонастройка по реальному IP | Automatically detect and set timezone from your IP. / Автоматическое определение и установка таймзоны по IP. |
 
 > 📝 **EN:** Timezone spoofing should match your real IP (or VPN location). A mismatch can make you *more* identifiable than no spoofing at all. No browser extension guarantees complete hardware-level anonymity.  
 > 📝 **RU:** Подмена часового пояса должна совпадать с реальным IP (или VPN). Рассинхрон сам по себе выдаёт анонимизацию сильнее, чем если бы подмены не было. Полная невидимость по железу не гарантируется никаким расширением.
@@ -150,6 +154,8 @@
 | WebRTC Blocking | Essential for VPN users — stops real IP leaks during P2P connections. / Критично для VPN-пользователей — блокирует утечку IP в P2P-соединениях. |
 | Adaptive Aggression | Scales protection based on how aggressively a site tries to fingerprint you. / Масштабирует защиту в зависимости от агрессивности сайта. |
 | Per-Site Settings | Granular control without global breakage. / Точечный контроль без глобальных поломок. |
+| Screen Resolution Spoofing | Prevents tracking via screen size and viewport dimensions. / Предотвращает отслеживание через размер экрана и viewport. |
+| Auto Timezone Sync | Eliminates timezone/IP mismatch that can expose your real location. / Устраняет рассинхрон таймзоны/IP, который может выдать реальное местоположение. |
 
 ---
 

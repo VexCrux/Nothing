@@ -4,7 +4,7 @@
   <!-- Language Switcher - Rounded -->
   <p align="center">
     <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=plastic&logo=googletranslate&logoColor=white" alt="English">
+    <img src="https://img.shields.io/badge/🇬🇧_English-Active-6e7681?style=plastic&logo=googletranslate&logoColor=white" alt="English">
   </p>
 
   <!-- Browser Badges - Plastic Rounded -->
@@ -101,28 +101,6 @@
 └── 📄 popup.js           # Popup logic / Логика меню
 ```
 
-
----
-
-## ⚙️ Settings / Настройки
-
-| 🔧 Section / Раздел | 🔧 Option / Опция | 📋 Description / Описание |
-|---------------------|-------------------|---------------------------|
-| **Browser Identity** / **Идентификация браузера** | Profile (UA / WebGL) / Профиль (UA / WebGL) | Select spoofed profile: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. / Выбор профиля: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. |
-| | Hardware Parameters / Аппаратные параметры | Toggle hardware feature spoofing. / Включение/отключение подмены характеристик устройства. |
-| **Screen** / **Экран** | Resolution Spoofing / Подмена разрешения | Mask screen resolution and viewport. / Маскировка разрешения экрана и viewport. |
-| **Fingerprint Protection** / **Fingerprint-защита** | Canvas / Audio Noise / Шум Canvas / Audio | Inject random noise into Canvas and Audio contexts. / Добавление шума к Canvas и Audio контекстам. |
-| | Adaptive Noise Aggression / Адаптивная агрессия шума | Auto-adjust noise intensity per site. / Автоматическая регулировка интенсивности шума. |
-| | Real-time WebGL Spoofing / Подмена WebGL (в реальном времени) | Mask WebGL parameters to prevent GPU tracking. / Маскировка параметров WebGL для защиты от идентификации по GPU. |
-| | Anti-Fraud / Geo-Tracker Block / Блокировка антифрод/гео-трекеров | Block anti-fraud and geo-tracking scripts. / Блокировка скриптов антифрод-систем и геотрекинга. |
-| **WebRTC** | Block WebRTC IP Leak / Блокировка WebRTC IP-leak | Prevent real IP exposure via WebRTC. / Защита от утечки реального IP через WebRTC. |
-| | Allow on Site / Разрешить на сайте | Whitelist specific domains (e.g., `meet.google.com`). / Белый список доменов (например, `meet.google.com`). |
-| **Timezone** / **Часовой пояс** | Enable Timezone Spoofing / Подмена часового пояса | Activate timezone masking. / Активация подмены таймзоны. |
-| | Value / Значение | Choose timezone: `Europe/London`, `America/New_York`, `Asia/Tokyo`, `Africa/Accra`. / Выбор таймзоны: `Europe/London`, `America/New_York`, `Asia/Tokyo`, `Africa/Accra`. |
-| | Auto Sync by IP / Автонастройка по реальному IP | Automatically detect and set timezone from your IP. / Автоматическое определение и установка таймзоны по IP. |
-
-> 📝 **EN:** Timezone spoofing should match your real IP (or VPN location). A mismatch can make you *more* identifiable than no spoofing at all. No browser extension guarantees complete hardware-level anonymity.  
-> 📝 **RU:** Подмена часового пояса должна совпадать с реальным IP (или VPN). Рассинхрон сам по себе выдаёт анонимизацию сильнее, чем если бы подмены не было. Полная невидимость по железу не гарантируется никаким расширением.
 
 ---
 

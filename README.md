@@ -1,17 +1,21 @@
 <div align="center">
 
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=120&section=header&text=NOTHING&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="Header">
+
   <!-- Language Switcher -->
   <p>
-    <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=flat-square" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=flat-square" alt="English">
+    <a href="#"><img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=flat-square&logo=googletranslate&logoColor=white" alt="Russian"></a>
+    <a href="#"><img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=flat-square&logo=googletranslate&logoColor=white" alt="English"></a>
   </p>
 
-  <!-- Hero Badges -->
+  <!-- Hero Badges - Rounded Modern Style -->
   <p>
-    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Chrome">
-    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=for-the-badge" alt="Edge">
-    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=for-the-badge" alt="Brave">
-    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT">
+    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
+    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
+    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
+    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=plastic" alt="MIT">
+    <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=plastic" alt="Version">
   </p>
 
   <!-- Title -->
@@ -19,13 +23,20 @@
   <p><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
   <p><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
 
+  <!-- Quick Stats -->
+  <p>
+    <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=flat-square" alt="Stars">
+    <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=flat-square" alt="Forks">
+    <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=flat-square" alt="Downloads">
+  </p>
+
   <!-- Quick Navigation -->
   <p>
-    <a href="#-features--возможности">Features</a> •
-    <a href="#-installation--установка">Install</a> •
-    <a href="#-project-structure--структура-проекта">Structure</a> •
-    <a href="#-settings--настройки">Settings</a> •
-    <a href="#-license--лицензия">License</a>
+    <a href="#-features--возможности">✨ Features</a> •
+    <a href="#-installation--установка">🚀 Install</a> •
+    <a href="#-project-structure--структура-проекта">📁 Structure</a> •
+    <a href="#-settings--настройки">⚙️ Settings</a> •
+    <a href="#-license--лицензия">🤝 License</a>
   </p>
 
 </div>
@@ -52,8 +63,8 @@
 
 ## ✨ Features / Возможности
 
-| # | Feature (EN) | Возможность (RU) | Description |
-|---|-------------|------------------|-------------|
+| # | 🏷️ Feature (EN) | 🏷️ Возможность (RU) | 📋 Description |
+|---|------------------|----------------------|---------------|
 | 1 | **Master Toggle** | **Главный выключатель** | Instantly enable/disable the entire extension. / Мгновенное включение или отключение расширения. |
 | 2 | **Site Exceptions** | **Исключения для сайтов** | Disable for specific pages or domains. / Отключение для конкретных страниц или доменов. |
 | 3 | **Traffic Monitor** | **Мониторинг трафика** | Real-time stats: domains, requests, packet loss, data volume, blocked trackers. / Статистика по доменам, запросам, потерям пакетов, объёму данных и трекерам. |
@@ -67,8 +78,8 @@
 
 ## 🚀 Installation / Установка
 
-| Step | Action (EN) | Действие (RU) |
-|------|-------------|---------------|
+| Step | 📝 Action (EN) | 📝 Действие (RU) |
+|------|---------------|------------------|
 | **1** | Click **Code** → **Download ZIP** | Нажмите **Code** → **Download ZIP** |
 | **2** | Extract ZIP to a dedicated folder | Распакуйте архив в отдельную папку |
 | **3** | Open browser → `chrome://extensions/` | Откройте браузер → `chrome://extensions/` |

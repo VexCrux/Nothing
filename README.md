@@ -101,20 +101,6 @@
 └── 📄 popup.js           # Popup logic / Логика меню
 ```
 
----
-
-
-<br>
-
-**Main Panel — Traffic monitoring & quick toggles / Главная панель — мониторинг трафика и переключатели:**
-
-![Main Panel](assets/screenshot-main.png)
-
-**Privacy Settings — System spoofing, fingerprint protection, WebRTC / Настройки приватности — подмена системы, защита, WebRTC:**
-
-![Privacy Settings](assets/screenshot-settings.png)
-
-</details>
 
 ---
 

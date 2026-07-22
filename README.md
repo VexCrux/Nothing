@@ -30,8 +30,7 @@
 <p align="center">
   <a href="#-features--возможности">✨ Features</a> •
   <a href="#-installation--установка">🚀 Install</a> •
-  <a href="#-timezone-showcase--часовые-пояса">🌍 Timezones</a> •
-  <a href="#-tech-stack--стек-технологий">⚙️ Tech</a>
+  <a href="#-timezone-showcase--часовые-пояса">🌍 Timezones</a> 
 </p>
 
 </div>

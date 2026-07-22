@@ -165,7 +165,3 @@
   </p>
 
 </div>
-"""
-
-with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
-    f.write(readme)

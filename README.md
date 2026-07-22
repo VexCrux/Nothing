@@ -30,7 +30,7 @@
   <p align="center">
     <a href="#-features--возможности">✨ Features</a> •
     <a href="#-installation--установка">🚀 Install</a> •
-    <a href="#-project-structure--структура-проекта">📁 Structure</a> •
+    <a href="#-project-structure--структура-проекта">📁 Structure</a> 
   </p>
 
 </div>

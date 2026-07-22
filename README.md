@@ -21,9 +21,9 @@
 
   <!-- Quick Stats - Rounded -->
   <p align="center">
-    <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
+    <img src="https://img.shields.io/badge/⭐_Stars-1-ffd700?style=plastic" alt="Stars">
     <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
-    <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
+    <img src="https://img.shields.io/badge/📥_Downloads-1-4ecdc4?style=plastic" alt="Downloads">
   </p>
 
   <!-- Quick Navigation -->

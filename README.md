@@ -1,37 +1,39 @@
 <!-- Animated Wave Header - Blue/Purple Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=18&descAlignY=55&descColor=a1b9f6" alt="Header">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=18&descAlignY=55&descColor=a1b9f6" alt="Header">
 
-  <!-- Language Switcher - Rounded -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
-  </p>
+<!-- Language Switcher - Rounded -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
+  <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
+</p>
 
-  <!-- Browser Badges - Plastic Rounded -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
-    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
-    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.3 in the works-3d53d7?style=plastic" alt="Version">
-  </p>
+<!-- Browser Badges - Plastic Rounded -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
+  <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
+  <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
+  <img src="https://img.shields.io/badge/Version-0.0.3%20in%20the%20works-3d53d7?style=plastic" alt="Version">
+</p>
 
-  <!-- Description -->
-  <p align="center"><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
-  <p align="center"><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
+<!-- Description -->
+<p align="center"><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
+<p align="center"><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
 
-  <!-- Quick Stats - Rounded -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/⭐_Stars-1-ffd700?style=plastic" alt="Stars">
-    <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
-    <img src="https://img.shields.io/badge/📥_Downloads-1-4ecdc4?style=plastic" alt="Downloads">
-  </p>
+<!-- Quick Stats - Rounded -->
+<p align="center">
+  <img src="https://img.shields.io/badge/⭐_Stars-1-ffd700?style=plastic" alt="Stars">
+  <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
+  <img src="https://img.shields.io/badge/📥_Downloads-1-4ecdc4?style=plastic" alt="Downloads">
+</p>
 
-  <!-- Quick Navigation -->
-  <p align="center">
-    <a href="#-features--возможности">✨ Features</a> •
-    <a href="#-installation--установка">🚀 Install</a> •
-    <a href="#-project-structure--структура-проекта">📁 Structure</a> 
-  </p>
+<!-- Quick Navigation -->
+<p align="center">
+  <a href="#-features--возможности">✨ Features</a> •
+  <a href="#-installation--установка">🚀 Install</a> •
+  <a href="#-project-structure--структура-проекта">📁 Structure</a> •
+  <a href="#-timezone-showcase--часовые-пояса">🌍 Timezones</a> •
+  <a href="#-tech-stack--стек-технологий">⚙️ Tech</a>
+</p>
 
 </div>
 
@@ -101,6 +103,78 @@
 └── 📄 popup.js           # Popup logic / Логика меню
 ```
 
+---
+
+## 🌍 Timezone Showcase / Часовые пояса
+
+<div align="center">
+
+### 🌐 Global Coverage / Глобальное покрытие
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🌍_Europe-40%2B%20cities-3d53d7?style=for-the-badge&logoColor=white" alt="Europe">
+  <img src="https://img.shields.io/badge/🌍_Africa-30%2B%20cities-4ecdc4?style=for-the-badge&logoColor=white" alt="Africa">
+  <img src="https://img.shields.io/badge/🌍_Asia-50%2B%20cities-ff6b6b?style=for-the-badge&logoColor=white" alt="Asia">
+  <img src="https://img.shields.io/badge/🌍_Americas-45%2B%20cities-2ea44f?style=for-the-badge&logoColor=white" alt="Americas">
+  <img src="https://img.shields.io/badge/🌍_Oceania-15%2B%20cities-ffd700?style=for-the-badge&logoColor=white" alt="Oceania">
+</p>
+
+### ⏰ Featured Timezones / Избранные часовые пояса
+
+| 🌆 City / Город | 🌍 Region / Регион | 🕐 UTC Offset |
+|----------------|-------------------|-------------|
+| Europe/London | 🇬🇧 United Kingdom | UTC+0 |
+| Europe/Paris | 🇫🇷 France | UTC+1 |
+| Europe/Berlin | 🇩🇪 Germany | UTC+1 |
+| Europe/Rome | 🇮🇹 Italy | UTC+1 |
+| Europe/Moscow | 🇷🇺 Russia | UTC+3 |
+| Europe/Istanbul | 🇹🇷 Türkiye | UTC+3 |
+| Africa/Cairo | 🇪🇬 Egypt | UTC+2 |
+| Africa/Lagos | 🇳🇬 Nigeria | UTC+1 |
+| Asia/Tokyo | 🇯🇵 Japan | UTC+9 |
+| Asia/Shanghai | 🇨🇳 China | UTC+8 |
+| Asia/Dubai | 🇦🇪 UAE | UTC+4 |
+| Asia/Mumbai | 🇮🇳 India | UTC+5:30 |
+| America/New_York | 🇺🇸 USA (East) | UTC-5 |
+| America/Los_Angeles | 🇺🇸 USA (West) | UTC-8 |
+| America/Sao_Paulo | 🇧🇷 Brazil | UTC-3 |
+| Australia/Sydney | 🇦🇺 Australia | UTC+10 |
+
+> 🔄 **Auto-detect from IP** / **Автоопределение по IP** — Automatically sync your timezone with your real IP location to avoid detection. / Автоматическая синхронизация таймзоны с реальным IP для избежания детекции.
+
+</div>
+
+---
+
+## ⚙️ Tech Stack / Стек технологий
+
+<div align="center">
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Chrome%20API-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome API">
+  <img src="https://img.shields.io/badge/WebRTC-API-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC">
+</p>
+
+</div>
+
+---
+
+## 🖼️ UI Preview / Превью интерфейса
+
+<div align="center">
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🎨_Dark%20Theme-Premium%20UI-0138b7?style=for-the-badge" alt="Dark Theme">
+  <img src="https://img.shields.io/badge/📱_Responsive-Mobile%20Ready-3d53d7?style=for-the-badge" alt="Responsive">
+  <img src="https://img.shields.io/badge/⚡_Fast-Zero%20Lag-2ea44f?style=for-the-badge" alt="Fast">
+</p>
+
+> 📸 *Screenshots coming in v0.0.3* / *Скриншоты в v0.0.3*
+
+</div>
 
 ---
 
@@ -117,15 +191,30 @@
 
 ---
 
+## 📈 Roadmap / Дорожная карта
+
 <div align="center">
 
-  <!-- Animated Wave Footer - Blue/Purple Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5372e0,50:3d53d7,100:0138b7&height=120&section=footer" alt="Footer">
-
-  <p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
-  <p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
-  <p>
-    <sub>⭐ Star this repo if Nothing helps you stay private! / Поставьте ⭐, если Nothing помогает вам оставаться приватным!</sub>
-  </p>
+| 📅 Version | 🎯 Planned Features / Планируемые функции | ✅ Status |
+|-----------|-------------------------------------------|----------|
+| **v0.0.3** | UI overhaul, timezone sync, traffic graphs | 🚧 In Progress |
+| **v0.0.4** | Firefox support, custom profiles export | 📋 Planned |
+| **v0.0.5** | AI-based adaptive protection, stats dashboard | 📋 Planned |
+| **v0.1.0** | Stable release, full documentation | 🎯 Goal |
 
 </div>
+
+---
+
+<div align="center">
+
+<!-- Animated Wave Footer - Blue/Purple Gradient -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5372e0,50:3d53d7,100:0138b7&height=120&section=footer" alt="Footer">
+
+<p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
+<p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
+<p>
+  <sub>⭐ Star this repo if Nothing helps you stay private! / Поставьте ⭐, если Nothing помогает вам оставаться приватным!</sub>
+</p>
+
+</div>"""

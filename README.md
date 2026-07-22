@@ -31,7 +31,6 @@
     <a href="#-features--возможности">✨ Features</a> •
     <a href="#-installation--установка">🚀 Install</a> •
     <a href="#-project-structure--структура-проекта">📁 Structure</a> •
-    <a href="#-settings--настройки">⚙️ Settings</a> •
     <a href="#-security-notes--примечания-по-безопасности">🛡️ Security</a>
   </p>
 

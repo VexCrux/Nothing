@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/Version-0.0.3-3d53d7?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-0.0.3 in the works-3d53d7?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->

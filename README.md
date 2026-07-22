@@ -1,4 +1,4 @@
-readme = '''<div align="center">
+<div align="center">
 
   <!-- Animated Wave Header - Matching Extension Colors (Dark Blue/Purple) -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a3e,50:2d2d5a,100:1a1a3e&height=160&section=header&text=NOTHING&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header">
@@ -101,76 +101,3 @@ readme = '''<div align="center">
 ├── 📄 manifest.json      # Extension manifest / Манифест расширения
 ├── 📄 popup.html         # Popup UI markup / Интерфейс меню
 └── 📄 popup.js           # Popup logic / Логика меню
-```
-
----
-
-## 🖼️ Interface Preview / Скриншоты интерфейса
-
-<details>
-<summary><b>📸 Click to expand / Нажмите, чтобы развернуть</b></summary>
-
-<br>
-
-**Main Panel — Traffic monitoring & quick toggles / Главная панель — мониторинг трафика и переключатели:**
-
-![Main Panel](assets/screenshot-main.png)
-
-**Privacy Settings — System spoofing, fingerprint protection, WebRTC / Настройки приватности — подмена системы, защита, WebRTC:**
-
-![Privacy Settings](assets/screenshot-settings.png)
-
-</details>
-
----
-
-## ⚙️ Settings / Настройки
-
-| 🔧 Section / Раздел | 🔧 Option / Опция | 📋 Description / Описание |
-|---------------------|-------------------|---------------------------|
-| **Browser Identity** / **Идентификация браузера** | Profile (UA / WebGL) / Профиль (UA / WebGL) | Select spoofed profile: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. / Выбор профиля: `Windows / Chrome`, `macOS / Safari`, `Linux / Firefox`. |
-| | Hardware Parameters / Аппаратные параметры | Toggle hardware feature spoofing. / Включение/отключение подмены характеристик устройства. |
-| **Fingerprint Protection** / **Fingerprint-защита** | Canvas / Audio Noise / Шум Canvas / Audio | Inject random noise into Canvas and Audio contexts. / Добавление шума к Canvas и Audio контекстам. |
-| | Adaptive Noise Aggression / Адаптивная агрессия шума | Auto-adjust noise intensity per site. / Автоматическая регулировка интенсивности шума. |
-| | Real-time WebGL Spoofing / Подмена WebGL (в реальном времени) | Mask WebGL parameters to prevent GPU tracking. / Маскировка параметров WebGL для защиты от идентификации по GPU. |
-| | Anti-Fraud / Geo-Tracker Block / Блокировка антифрод/гео-трекеров | Block anti-fraud and geo-tracking scripts. / Блокировка скриптов антифрод-систем и геотрекинга. |
-| **WebRTC** | Block WebRTC IP Leak / Блокировка WebRTC IP-leak | Prevent real IP exposure via WebRTC. / Защита от утечки реального IP через WebRTC. |
-| | Allow on Site / Разрешить на сайте | Whitelist specific domains (e.g., `meet.google.com`). / Белый список доменов (например, `meet.google.com`). |
-| **Timezone** / **Часовой пояс** | Enable Timezone Spoofing / Подмена часового пояса | Activate timezone masking. / Активация подмены таймзоны. |
-| | Value / Значение | Choose timezone: `Europe/London`, `America/New_York`, `Asia/Tokyo`. / Выбор таймзоны: `Europe/London`, `America/New_York`, `Asia/Tokyo`. |
-
-> 📝 **EN:** Timezone spoofing should match your real IP (or VPN location). A mismatch can make you *more* identifiable than no spoofing at all. No browser extension guarantees complete hardware-level anonymity.  
-> 📝 **RU:** Подмена часового пояса должна совпадать с реальным IP (или VPN). Рассинхрон сам по себе выдаёт анонимизацию сильнее, чем если бы подмены не было. Полная невидимость по железу не гарантируется никаким расширением.
-
----
-
-## 🛡️ Security Notes / Примечания по безопасности
-
-| 🔒 Feature / Функция | 🎯 Why It Matters / Зачем это нужно |
-|----------------------|--------------------------------------|
-| Canvas & Audio Noise | Adds subtle randomization to prevent fingerprinting without breaking sites. / Добавляет рандомизацию для защиты от фингерпринтинга без поломки сайтов. |
-| WebRTC Blocking | Essential for VPN users — stops real IP leaks during P2P connections. / Критично для VPN-пользователей — блокирует утечку IP в P2P-соединениях. |
-| Adaptive Aggression | Scales protection based on how aggressively a site tries to fingerprint you. / Масштабирует защиту в зависимости от агрессивности сайта. |
-| Per-Site Settings | Granular control without global breakage. / Точечный контроль без глобальных поломок. |
-
----
-
-<div align="center">
-
-  <!-- Animated Wave Footer - Matching Extension Colors -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d2d5a,50:1a1a3e,100:2d2d5a&height=120&section=footer" alt="Footer">
-
-  <p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
-  <p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
-  <p>
-    <sub>⭐ Star this repo if Nothing helps you stay private! / Поставьте ⭐, если Nothing помогает вам оставаться приватным!</sub>
-  </p>
-
-</div>
-'''
-
-with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
-    f.write(readme)
-
-print("README.md saved successfully!")
-print(f"Total characters: {len(readme)}")

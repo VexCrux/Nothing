@@ -1,14 +1,14 @@
   <!-- Animated Wave Header - Blue/Purple Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35" alt="Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35&desc=By%20VexCrux&descSize=18&descAlignY=55&descColor=a1b9f6" alt="Header">
 
   <!-- Language Switcher - Rounded -->
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
     <img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=plastic&logo=googletranslate&logoColor=white" alt="English">
   </p>
 
   <!-- Browser Badges - Plastic Rounded -->
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
@@ -16,18 +16,18 @@
   </p>
 
   <!-- Description -->
-  <p><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
-  <p><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
+  <p align="center"><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
+  <p align="center"><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
 
   <!-- Quick Stats - Rounded -->
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
     <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
     <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
   </p>
 
   <!-- Quick Navigation -->
-  <p>
+  <p align="center">
     <a href="#-features--возможности">✨ Features</a> •
     <a href="#-installation--установка">🚀 Install</a> •
     <a href="#-project-structure--структура-проекта">📁 Structure</a> •
@@ -155,8 +155,8 @@
 
 <div align="center">
 
-  <!-- Animated Wave Footer - Blue/Purple Gradient with Creator -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5372e0,50:3d53d7,100:0138b7&height=180&section=footer&text=VexCrux&fontSize=50&fontColor=b8ceff&animation=fadeIn&fontAlignY=65&desc=Creator%20of%20Nothing&descSize=16&descAlignY=85&descColor=a1b9f6" alt="Footer">
+  <!-- Animated Wave Footer - Blue/Purple Gradient -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5372e0,50:3d53d7,100:0138b7&height=120&section=footer" alt="Footer">
 
   <p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
   <p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
